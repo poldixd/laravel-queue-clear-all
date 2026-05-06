@@ -2,6 +2,8 @@
 
 Clear all queues configured in Laravel Horizon with a single Artisan command.
 
+This package is intended for local development and non-production environments. Do not install or run it in production.
+
 The package reads the queue names from `config('horizon.environments')`, removes duplicates, and runs Laravel's built-in `queue:clear` command for each queue.
 
 ## Installation
@@ -9,7 +11,7 @@ The package reads the queue names from `config('horizon.environments')`, removes
 Install the package with Composer:
 
 ```bash
-composer require poldixd/laravel-queue-clear-all
+composer require --dev poldixd/laravel-queue-clear-all
 ```
 
 Laravel package auto-discovery registers the service provider automatically.

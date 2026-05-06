@@ -1,8 +1,10 @@
 {
   "name": "poldixd/laravel-queue-clear-all",
-  "description": "Clear all Laravel Horizon queues with a single Artisan command.",
+  "description": "Development-only Artisan command to clear all Laravel Horizon queues.",
   "keywords": [
     "artisan",
+    "development",
+    "dev-only",
     "horizon",
     "laravel",
     "queue"
